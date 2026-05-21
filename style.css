@@ -1,0 +1,421 @@
+/* =========================
+   MAIN APP
+========================= */
+
+.stApp {
+    background-color: #F8F1E7;
+    color: #6F4E37;
+}
+
+/* =========================
+   TEXT
+========================= */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div,
+label,
+span,
+li {
+    color: #6F4E37 !important;
+}
+
+/* =========================
+   SIDEBAR
+========================= */
+
+[data-testid="stSidebar"] {
+    background-color: #E8DCCB !important;
+}
+
+[data-testid="stSidebar"] * {
+    color: #6F4E37 !important;
+}
+
+/* =========================
+   DATAFRAME / TABLE
+========================= */
+
+/* Wrapper card for st.table */
+[data-testid="stTable"] {
+    background-color: #E8DCCB !important;
+    border-radius: 18px !important;
+    padding: 14px !important;
+    overflow: hidden !important;
+}
+
+/* HTML table element */
+[data-testid="stTable"] table {
+    background-color: #FFF8F0 !important;
+    border-collapse: collapse !important;
+    width: 100% !important;
+    border-radius: 10px !important;
+    overflow: hidden !important;
+}
+
+/* Table header cells */
+[data-testid="stTable"] thead th {
+    background-color: #DCCBB8 !important;
+    color: #6F4E37 !important;
+    padding: 9px 14px !important;
+    border-bottom: 2px solid #C4A882 !important;
+    font-weight: 600 !important;
+    text-align: left !important;
+}
+
+/* Table body cells */
+[data-testid="stTable"] tbody td {
+    background-color: #FFF8F0 !important;
+    color: #6F4E37 !important;
+    padding: 7px 14px !important;
+    border-bottom: 1px solid #E8DCCB !important;
+}
+
+/* Alternating row color */
+[data-testid="stTable"] tbody tr:nth-child(even) td {
+    background-color: #F5EDE0 !important;
+}
+
+/* Row hover */
+[data-testid="stTable"] tbody tr:hover td {
+    background-color: #EFE0CC !important;
+}
+
+/* Index column (th in tbody) */
+[data-testid="stTable"] tbody th {
+    background-color: #EFE4D6 !important;
+    color: #6F4E37 !important;
+    padding: 7px 14px !important;
+    border-bottom: 1px solid #E8DCCB !important;
+    font-weight: 500 !important;
+}
+
+/* =========================
+   SUCCESS BOX
+========================= */
+
+[data-testid="stAlert"] {
+    background-color: #DCCBB8 !important;
+    border-radius: 14px !important;
+    border: none !important;
+}
+
+/* Alert text */
+
+[data-testid="stAlert"] * {
+    color: #6F4E37 !important;
+}
+
+/* =========================
+   WARNING BOX
+========================= */
+
+.stWarning {
+    background-color: #D8C3A5 !important;
+    border-radius: 14px !important;
+    border: none !important;
+}
+
+.stWarning * {
+    color: #FFF8F0 !important;
+}
+
+/* =========================
+   SLIDER
+========================= */
+
+.stSlider * {
+    color: #6F4E37 !important;
+}
+
+/* =========================
+   SELECTBOX — LIGHT MODE
+========================= */
+
+/* The clickable box */
+[data-testid="stSidebar"] [data-baseweb="select"] > div:first-child {
+    background-color: #FFF8F0 !important;
+    border: 1.5px solid #C4A882 !important;
+    border-radius: 10px !important;
+}
+
+/* Selected text inside the box */
+[data-testid="stSidebar"] [data-baseweb="select"] span,
+[data-testid="stSidebar"] [data-baseweb="select"] div {
+    color: #6F4E37 !important;
+    background-color: transparent !important;
+}
+
+/* Dropdown arrow icon */
+[data-testid="stSidebar"] [data-baseweb="select"] svg {
+    fill: #6F4E37 !important;
+}
+
+/* Dropdown popup menu */
+[data-baseweb="popover"] ul,
+[data-baseweb="menu"] {
+    background-color: #FFF8F0 !important;
+    border: 1.5px solid #C4A882 !important;
+    border-radius: 10px !important;
+}
+
+/* Each option item */
+[data-baseweb="menu"] li {
+    background-color: #FFF8F0 !important;
+    color: #6F4E37 !important;
+}
+
+/* Option hover */
+[data-baseweb="menu"] li:hover {
+    background-color: #E8DCCB !important;
+    color: #6F4E37 !important;
+}
+
+/* Selected / highlighted option */
+[data-baseweb="menu"] [aria-selected="true"] {
+    background-color: #DCCBB8 !important;
+    color: #6F4E37 !important;
+}
+
+/* =========================
+   STAT BOXES
+========================= */
+
+.stat-boxes-row {
+    display: flex;
+    gap: 16px;
+    margin: 12px 0 24px 0;
+}
+
+.stat-box {
+    flex: 1;
+    background-color: #E8DCCB;
+    border-radius: 14px;
+    padding: 18px 16px;
+    text-align: center;
+    border: 1px solid #C4A882;
+}
+
+.stat-label {
+    font-size: 13px;
+    color: #A07850 !important;
+    margin-bottom: 6px;
+    font-weight: 500;
+}
+
+.stat-value {
+    font-size: 22px;
+    font-weight: 700;
+    color: #6F4E37 !important;
+}
+
+/* =========================
+   ACCURACY TABLE
+========================= */
+
+.acc-table-wrapper {
+    background-color: #E8DCCB;
+    border-radius: 18px;
+    padding: 16px;
+    margin: 12px 0;
+    overflow: hidden;
+}
+
+.acc-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #FFF8F0;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.acc-table thead th {
+    background-color: #DCCBB8;
+    color: #6F4E37 !important;
+    padding: 10px 16px;
+    border-bottom: 2px solid #C4A882;
+    font-weight: 600;
+    text-align: left;
+}
+
+.acc-table .acc-train-header {
+    color: #5B7FA6 !important;
+}
+
+.acc-table .acc-test-header {
+    color: #B06020 !important;
+}
+
+.acc-table tbody td {
+    padding: 9px 16px;
+    border-bottom: 1px solid #E8DCCB;
+    color: #6F4E37 !important;
+    background-color: #FFF8F0;
+}
+
+.acc-table tbody tr:nth-child(even) td {
+    background-color: #F5EDE0;
+}
+
+.acc-table tbody tr:hover td {
+    background-color: #EFE0CC;
+}
+
+.acc-table .acc-k {
+    font-weight: 600;
+    color: #6F4E37 !important;
+}
+
+.acc-table .acc-train {
+    color: #5B7FA6 !important;
+    font-weight: 600;
+}
+
+.acc-table .acc-test {
+    color: #B06020 !important;
+    font-weight: 600;
+}
+
+.acc-table .acc-gap {
+    color: #6F4E37 !important;
+}
+
+.acc-table .status-over {
+    color: #C0392B !important;
+    font-weight: 600;
+}
+
+.acc-table .status-mild-over {
+    color: #C0392B !important;
+    font-weight: 500;
+    opacity: 0.8;
+}
+
+.acc-table .status-best {
+    color: #27AE60 !important;
+    font-weight: 700;
+}
+
+.acc-table .status-mild-under {
+    color: #5B7FA6 !important;
+    font-weight: 500;
+    opacity: 0.8;
+}
+
+.acc-table .status-under {
+    color: #5B7FA6 !important;
+    font-weight: 600;
+}
+/* =========================
+   SIDEBAR NAV LINKS
+========================= */
+
+.nav-links {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin: 4px 0;
+}
+
+.nav-link {
+    display: block;
+    padding: 9px 14px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #6F4E37 !important;
+    text-decoration: none !important;
+    background-color: transparent;
+    transition: background-color 0.15s;
+}
+
+.nav-link:hover {
+    background-color: #DCCBB8;
+}
+
+.nav-link-active {
+    background-color: #DCCBB8;
+    font-weight: 600;
+}
+
+/* =========================
+   METRIC INFO CARDS
+========================= */
+
+.metric-cards-row {
+    display: flex;
+    gap: 16px;
+    margin: 12px 0 24px 0;
+}
+
+.metric-card {
+    flex: 1;
+    background-color: #E8DCCB;
+    border-radius: 14px;
+    padding: 18px 16px;
+    border: 1px solid #C4A882;
+}
+
+.metric-card-title {
+    font-size: 15px;
+    font-weight: 700;
+    color: #6F4E37 !important;
+    margin-bottom: 6px;
+}
+
+.metric-card-formula {
+    font-family: monospace;
+    font-size: 13px;
+    color: #A07850 !important;
+    background-color: #FFF8F0;
+    border-radius: 6px;
+    padding: 4px 8px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.metric-card-desc {
+    font-size: 13px;
+    color: #6F4E37 !important;
+    line-height: 1.6;
+}
+
+/* =========================
+   ACTIVE ROW IN TABLE
+========================= */
+
+.acc-table tbody tr.metric-active td {
+    background-color: #EFE4D6 !important;
+    font-weight: 600 !important;
+}
+
+/* =========================
+   STREAMLIT NAV — keep visible
+========================= */
+
+[data-testid="stSidebarNav"] {
+    padding-top: 0 !important;
+}
+
+[data-testid="stSidebarNav"] a {
+    color: #6F4E37 !important;
+}
+
+[data-testid="stSidebarNav"] a:hover {
+    background-color: #DCCBB8 !important;
+}
+
+/* =========================
+   CURRENT K ROW HIGHLIGHT
+========================= */
+
+.acc-table tbody tr.row-current td {
+    background-color: #EFE4D6 !important;
+    font-weight: 600 !important;
+    border-left: 3px solid #8B5E3C !important;
+}
