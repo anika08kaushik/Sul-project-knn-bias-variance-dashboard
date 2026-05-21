@@ -28,4 +28,4 @@ pip install -r requirements.txt
 python train_model.py
 
 ### Run Dashboard
-streamlit run app.py
+streamlit run Dashboard.py
