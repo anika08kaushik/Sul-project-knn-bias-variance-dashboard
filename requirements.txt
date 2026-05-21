@@ -1,14 +1,6 @@
-<<<<<<< HEAD
-pandas
-numpy
-matplotlib
-seaborn
-scikit-learn
-=======
-pandas
-numpy
-matplotlib
-seaborn
-scikit-learn
->>>>>>> 96e8b7b0c81e576564dbc2968b5a2ba0d9278dde
 streamlit
+pandas
+numpy
+matplotlib
+scikit-learn
+seaborn
