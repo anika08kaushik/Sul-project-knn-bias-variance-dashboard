@@ -9,14 +9,11 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import accuracy_score
 
-<<<<<<< HEAD
 # PAGE CONFIG
 st.set_page_config(
     page_title="Dashboard",
     layout="wide"
 )
-=======
->>>>>>> 96e8b7b0c81e576564dbc2968b5a2ba0d9278dde
 
 # =========================
 # THEME TOGGLE
